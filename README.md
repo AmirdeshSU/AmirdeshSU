@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0b3d2e,100:00ff9c&height=200&section=header&text=Amirdeshwara%20R&fontSize=56&fontColor=00ff9c&fontAlignY=38&desc=Security%20Testing%20Engineer%20%E2%80%A2%20VAPT%20%E2%80%A2%20SOC&descSize=18&descAlignY=60&descColor=c9d1d9" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0b3d2e,100:00ff9c&height=200&section=header&text=Amirdeshwara%20R&fontSize=56&fontColor=00ff9c&fontAlignY=38&desc=Security%20Automation%20%E2%80%A2%20VAPT%20%E2%80%A2%20SOC&descSize=18&descAlignY=60&descColor=c9d1d9" alt="header" />
 
 <a href="https://github.com/AmirdeshSU">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00FF9C&center=true&vCenter=true&width=700&lines=%24+whoami+%E2%86%92+security+testing+engineer;%24+nessus+--sme+%7C+1500%2B+machines+%7C+15%2B+clients;%24+2000%2B+SOC+incidents+triaged+%E2%86%92+offensive+blind+spots+found;%24+building+security+tooling+with+Python%2C+FastAPI+%26+AI" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00FF9C&center=true&vCenter=true&width=720&lines=%24+automate+--the+boring+parts+of+security;%24+nessus+scans+%E2%86%92+parsed+%E2%86%92+excel+%E2%86%92+report;%24+soc+tickets+%E2%86%92+triage+%E2%86%92+ai+analysis+%E2%86%92+daily+report;%24+pentest+%E2%86%92+owasp+network+top+10+%E2%86%92+html+report" alt="typing" />
 </a>
 
 <br/>
@@ -21,32 +21,55 @@
 name      : Amirdeshwara R
 role      : Security Testing Engineer @ Secure Network Solutions (SNS) India
 location  : Chennai, India
-edge      : VAPT with a defender's view from SOC operations
+focus     : Security automation: tools that cut manual VAPT and SOC reporting
+edge      : Offensive testing with a defender's view from SOC operations
 learning  : OSCP, C3SA, AI/GenAI for Cybersecurity (IIT Roorkee)
 ```
 
-I test systems the way an attacker would, and I know what the SOC sees on the other side. Years of triaging alerts make me spot the blind spots a pure pentest misses. I write the tooling that removes the repetitive parts of both jobs.
+I automate the repetitive work in security: vulnerability reporting, alert triage, pentest checks and daily customer reports. The tools below are built from daily use on a real SOC and VA team.
 
-| | |
-|---|---|
-| 🔎 **Vulnerability assessment** | Nessus SME. 20+ VA reports, 1500+ machines, 15+ clients |
-| 🎯 **Pentesting** | AI-assisted network pentests, OWASP Network Top 10 |
-| 🛡️ **SOC operations** | 2000+ incidents as SPOC. FortiSIEM and Seceon |
-| 🎣 **Social engineering** | GoPhish and uPhish campaigns, 6000+ email send for one client |
-| 🧠 **SIEM and threat intel** | FortiSIEM custom XML parsers, OpenCTI connectors |
+---
 
-## `> ls ~/projects`
+## ⚡ Featured: Security Automation
 
-| Project | What it does | Stack |
-|---|---|---|
-| **Groot** *(private)* | SOC operations platform: ticket triage, SLA-breach reporting, shift rosters, AI-assisted incident analysis with PII masking, nightly daily reports | FastAPI, React, TypeScript, Postgres, Docker |
-| **OpenAEV tabletop** | Akira ransomware tabletop exercise, run for the whole SOC team | OpenAEV, Docker |
-| **VA Report Tools** *(private)* | Bulk-downloads Nessus scans, builds per-IP Excel workbooks, tags rescans New/Closed/Open | Flask, Python, Docker |
-| **NetPentest** *(private)* | Automated network pentest covering all 10 OWASP Network Top 10 categories, TXT/JSON/HTML reports | Python |
-| [**Nessus-Report-Downloader**](https://github.com/AmirdeshSU/Nessus-Report-Downloader) | Bulk-download Nessus scan reports | Python |
-| [**SOC-Roaster**](https://github.com/AmirdeshSU/SOC-Roaster) | Shift roster tooling for SOC teams | HTML |
-| [**AD_KB**](https://github.com/AmirdeshSU/AD_KB) | Active Directory knowledge base | Notes |
-| [**Skills**](https://github.com/AmirdeshSU/skills) | My Claude Code skills and plugin index | Markdown |
+### 🤖 Groot — SOC Operations Platform *(private)*
+Role-based platform that runs a SOC's day-to-day workflow.
+- **Ticket triage** from Zoho Desk, with **SLA-breach reporting** and **shift rosters**
+- **AI-assisted incident analysis**: per-user encrypted keys, PII masked before model calls, FortiSIEM integration, multi-provider threat intel
+- **Daily customer reports** with PDF export, generated automatically every night
+- Tested with pytest and Playwright E2E, and hardened by pentesting it myself
+
+`FastAPI` `React` `TypeScript` `PostgreSQL` `Docker`
+
+### 📊 VA Report Tools *(private)*
+Turns a manual Nessus reporting cycle into a pipeline.
+- Bulk-downloads scans through the Nessus REST API
+- Consolidates scan CSVs and builds **per-IP Excel workbooks**
+- Tags rescans as **New / Closed / Open**
+- Scan scheduler with active-hours control and liveness checks, plus a standalone PyInstaller build
+
+`Flask` `Python` `Docker`
+
+### 🎯 NetPentest *(private)*
+Automated network pentest covering **all 10 OWASP Network Top 10 categories (N1–N10)**.
+- Parallel module execution
+- Single IP, CIDR or target-list input
+- **TXT, JSON and interactive HTML** reports
+
+`Python`
+
+### 🧪 OpenAEV Ransomware Tabletop
+Deployed OpenAEV in Docker with IMAP and SMTP mail flow, built custom **Akira ransomware** scenarios, and ran the exercise for the whole SOC team.
+
+`OpenAEV` `Docker`
+
+### 🔧 More automation
+- 🔍 [Nessus-Report-Downloader](https://github.com/AmirdeshSU/Nessus-Report-Downloader) — bulk-download Nessus scan reports (`Python`)
+- 🗓️ [SOC-Roaster](https://github.com/AmirdeshSU/SOC-Roaster) — shift roster tooling for SOC teams
+- 🧩 FortiSIEM custom XML parsers for better detection fidelity, and OpenCTI connector management
+- 🧠 [Skills](https://github.com/AmirdeshSU/skills) — my Claude Code skills and plugin index
+
+---
 
 ## `> cat stack.conf`
 
@@ -58,10 +81,18 @@ I test systems the way an attacker would, and I know what the SOC sees on the ot
 
 | | |
 |---|---|
-| **Offensive** | Nmap, Burp Suite, Wireshark, Nessus, GoPhish |
+| **Automation and AI** | Python, FastAPI, Flask, Claude Code, Antigravity, Google AI tools |
+| **Offensive** | Nmap, Burp Suite, Wireshark, Nessus (SME), GoPhish |
 | **Defensive** | FortiSIEM, Seceon, OpenCTI, OpenAEV, threat hunting, incident investigation |
 | **Infrastructure** | Windows Server, Active Directory, CCNA trained |
-| **AI tooling** | Claude Code, Antigravity, Google AI tools |
+
+## `> cat track-record.txt`
+
+| | |
+|---|---|
+| 🔎 **Vulnerability assessment** | 20+ VA reports across 1500+ machines for 15+ clients |
+| 🛡️ **SOC operations** | 2000+ incidents handled as SPOC (FortiSIEM, Seceon) |
+| 🎣 **Social engineering** | GoPhish and uPhish campaigns, 6000+ emails sent for one client |
 
 ## `> cat certs.txt`
 
