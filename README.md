@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0b3d2e,100:00ff9c&height=200&section=header&text=Amirdeshwara%20R&fontSize=56&fontColor=00ff9c&fontAlignY=38&desc=Security%20Automation%20%E2%80%A2%20VAPT%20%E2%80%A2%20SOC&descSize=18&descAlignY=60&descColor=c9d1d9" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:3d2b6b,100:7aa2f7&height=200&section=header&text=Amirdeshwara%20R&fontSize=56&fontColor=7aa2f7&fontAlignY=38&desc=Security%20Automation%20%E2%80%A2%20VAPT%20%E2%80%A2%20SOC&descSize=18&descAlignY=60&descColor=c0caf5" alt="header" />
 
 <a href="https://github.com/AmirdeshSU">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=00FF9C&center=true&vCenter=true&width=720&lines=%24+automate+--the+boring+parts+of+security;%24+nessus+scans+%E2%86%92+parsed+%E2%86%92+excel+%E2%86%92+report;%24+soc+tickets+%E2%86%92+triage+%E2%86%92+ai+analysis+%E2%86%92+daily+report;%24+pentest+%E2%86%92+owasp+network+top+10+%E2%86%92+html+report" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=720&lines=%24+automate+--the+boring+parts+of+security;%24+nessus+scans+%E2%86%92+parsed+%E2%86%92+excel+%E2%86%92+report;%24+soc+tickets+%E2%86%92+triage+%E2%86%92+ai+analysis+%E2%86%92+daily+report;%24+pentest+%E2%86%92+owasp+network+top+10+%E2%86%92+html+report" alt="typing" />
 </a>
 
 <br/>
 
-![Profile views](https://komarev.com/ghpvc/?username=AmirdeshSU&color=00ff9c&style=flat-square&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/AmirdeshSU?style=flat-square&color=00ff9c&labelColor=0d1117)
+![Profile views](https://komarev.com/ghpvc/?username=AmirdeshSU&color=7aa2f7&style=flat-square&label=PROFILE+VIEWS)
+![Followers](https://img.shields.io/github/followers/AmirdeshSU?style=flat-square&color=7aa2f7&labelColor=1a1b26)
 
 </div>
 
@@ -106,8 +106,8 @@ Deployed OpenAEV in Docker with IMAP and SMTP mail flow, built custom **Akira ra
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AmirdeshSU&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff9c&icon_color=00ff9c&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirdeshSU&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff9c&text_color=c9d1d9" alt="top languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AmirdeshSU&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&icon_color=7aa2f7&text_color=c0caf5&include_all_commits=true&count_private=true" alt="stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirdeshSU&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26&title_color=7aa2f7&text_color=c0caf5" alt="top languages" />
 
 </div>
 
@@ -115,12 +115,12 @@ Deployed OpenAEV in Docker with IMAP and SMTP mail flow, built custom **Akira ra
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/amirdeshr/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff9c" alt="linkedin" /></a>
-<a href="mailto:amirdesh61@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff9c" alt="email" /></a>
-<a href="https://github.com/AmirdeshSU"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=00ff9c" alt="github" /></a>
+<a href="https://www.linkedin.com/in/amirdeshr/"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" alt="linkedin" /></a>
+<a href="mailto:amirdesh61@gmail.com"><img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="email" /></a>
+<a href="https://github.com/AmirdeshSU"><img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7" alt="github" /></a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,50:0b3d2e,100:0d1117&height=100&section=footer" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:3d2b6b,100:1a1b26&height=100&section=footer" alt="footer" />
 
 </div>
