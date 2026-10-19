@@ -106,7 +106,7 @@ Deployed OpenAEV in Docker with IMAP and SMTP mail flow, built custom **Akira ra
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AmirdeshSU&show_icons=true&theme=dracula&hide_border=true&bg_color=282a36&title_color=bd93f9&icon_color=bd93f9&text_color=f8f8f2&include_all_commits=true&count_private=true" alt="stats" />
+<img height="230" src="stats.svg" alt="GitHub stats including private contributions" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirdeshSU&layout=compact&theme=dracula&hide_border=true&bg_color=282a36&title_color=bd93f9&text_color=f8f8f2" alt="top languages" />
 
 </div>
